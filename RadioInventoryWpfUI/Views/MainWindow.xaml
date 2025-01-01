@@ -1,0 +1,35 @@
+﻿<Window x:Class="RadioInventoryWpfUI.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RadioInventoryWpfUI.Views"
+        mc:Ignorable="d"
+        Title="MainWindow" 
+        Height="1023" Width="1920"
+        FontFamily="Segoe UI" FontSize="14">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+
+        <Label Grid.Row="0"
+               HorizontalAlignment="Center" Margin="0 0 0 10"
+               FontSize="20" FontWeight="Bold">
+            Radio Inventory App
+        </Label>
+        
+        <DockPanel Grid.Row="1">
+            <TabControl>
+                <TabItem Header="Create New Radios">
+                    <local:CreateRadiosView/>
+                </TabItem>
+                <TabItem Header="View Radios">
+                    <local:ViewRadiosView/>
+                </TabItem>
+            </TabControl>
+        </DockPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "RadioInventoryDb", "RadioInventoryDb\RadioInventoryDb.sqlproj", "{73C5C1BF-8E50-4D81-98D3-0DAFD6BDC1A1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RadioInventoryLibrary", "RadioInventoryLibrary\RadioInventoryLibrary.csproj", "{DAA0894C-7ECC-4232-ACE0-6FFB9A4A17B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioInventoryWpfUI", "RadioInventoryWpfUI\RadioInventoryWpfUI.csproj", "{1BDA75A3-9FFC-4910-B9B5-A80832A76DE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73C5C1BF-8E50-4D81-98D3-0DAFD6BDC1A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73C5C1BF-8E50-4D81-98D3-0DAFD6BDC1A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73C5C1BF-8E50-4D81-98D3-0DAFD6BDC1A1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{73C5C1BF-8E50-4D81-98D3-0DAFD6BDC1A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73C5C1BF-8E50-4D81-98D3-0DAFD6BDC1A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73C5C1BF-8E50-4D81-98D3-0DAFD6BDC1A1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{DAA0894C-7ECC-4232-ACE0-6FFB9A4A17B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAA0894C-7ECC-4232-ACE0-6FFB9A4A17B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAA0894C-7ECC-4232-ACE0-6FFB9A4A17B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAA0894C-7ECC-4232-ACE0-6FFB9A4A17B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BDA75A3-9FFC-4910-B9B5-A80832A76DE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BDA75A3-9FFC-4910-B9B5-A80832A76DE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BDA75A3-9FFC-4910-B9B5-A80832A76DE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BDA75A3-9FFC-4910-B9B5-A80832A76DE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD393804-3579-4F38-BEC1-D570B8FA8B26}
+	EndGlobalSection
+EndGlobal
