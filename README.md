@@ -12,7 +12,6 @@ This is a WPF app that simulates an inventory of radios as they are used and lab
 - WPF (MVVM)
 - SQL Server
 - Dependency Injection
-- 
 
 
 ## Before Building on Your Machine
